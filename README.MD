@@ -1,22 +1,16 @@
 ###############################################
-Ecommerce Corporate Account
+ecommerce delivery
 Pre 0.1 proof of concept
 ###############################################
 
-Adds functionality to e-commerce that is typical
-for a corporate account (business to business sales):
-
-- purchase order number
-- security groups as companies
-
-In the future we can add more corporate account
-functionality to this module.
-
+Adds pick-up and or delivery to your e-commerce order.
+You can set charges as fixed prices, based on total
+order charge or based on weight.  You can differ these
+costs per country.
 
 Developers
 -----------------------------------------------
 Nicolaas Francken [at] sunnysideup.co.nz
-
 
 Requirements
 -----------------------------------------------
@@ -42,6 +36,8 @@ it from your mysite folder, so that you can upgrade the module without redoing t
 If you just want one or two things from this module
 then of course you are free to copy them to your
 mysite folder and delete the rest of this module.
+
+
 
 
 
