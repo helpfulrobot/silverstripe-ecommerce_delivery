@@ -307,7 +307,7 @@ class PickUpOrDeliveryModifier extends OrderModifier {
 		if($option) {
 			$regionID = EcommerceRegion::get_region();
 			if($regionID) {
-				$region = DataObject::get_one("EcommerceRegion", $regionID);
+				$region = DataObject::get_by_id("EcommerceRegion", $regionID);
 				if($region) {
 					$details[] = $region->Name;
 				}
