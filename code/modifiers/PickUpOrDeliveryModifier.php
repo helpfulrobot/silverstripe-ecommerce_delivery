@@ -202,6 +202,7 @@ class PickUpOrDeliveryModifier extends OrderModifier {
 	public function ShowInTable() {
 		return true;
 	}
+
 	public function CanBeRemoved() {
 		return false;
 	}
