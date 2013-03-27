@@ -9,7 +9,7 @@ class CountryRegionDeliveryModifier extends PickUpOrDeliveryModifier {
 		$show = parent::ShowForm();
 		if(self::$check_options_count_to_show_form) {
 			$options = $this->LiveOptions();
-			$show = $show && $options->Count() > 1
+			$show = $show && $options->Count() > 1;
 		}
 		return $show;
 	}
